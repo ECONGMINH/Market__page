@@ -1,0 +1,84 @@
+@import '../assets/scss/variable.scss';
+footer {
+	margin-top: 146px;
+}
+.footer__layout {
+	display: flex;
+	flex-direction: column;
+	max-width: 1720px;
+	margin: 0 auto;
+	width: 100%;
+}
+.footer__menu {
+	border-top: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	width: 100%;
+	&-list {
+		padding-left: 0;
+		margin-bottom: 52px;
+		display: flex;
+		justify-content: space-between;
+		&__item {
+			list-style: none;
+			&:first-child {
+				margin-right: 786px;
+			}
+			&-text {
+				font-size: $text-footer-list;
+				line-height: $text-footer-line-height;
+				font-weight: bold;
+			}
+			&-child {
+				padding-left: 0;
+				> li {
+					list-style: none;
+					color: $color-text-happenedVideo;
+					> a {
+						font-size: $text-footer-list;
+						text-decoration: none;
+						text-align: left;
+						font-weight: 300;
+						line-height: 31px;
+					}
+					&:first-child {
+						> a {
+							line-height: $text-footer-line-height;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.footer__info__about-market {
+	width: 100%;
+	display: flex;
+	margin-top: 22px;
+	justify-content: space-between;
+	&-text {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		color: $text-color-footer-license;
+		line-height: $text-footer-license-line-height;
+		font-weight: 300;
+		font-size: $text-footer-list;
+		&-le {
+		}
+		&-ct {
+		}
+	}
+	&-iconSocial {
+		display: flex;
+		align-items: center;
+		&-item {
+			margin-right: 23px;
+			&:last-child {
+				margin-right: 0;
+			}
+			&-img {
+			}
+		}
+	}
+}

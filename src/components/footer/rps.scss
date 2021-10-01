@@ -1,0 +1,63 @@
+@media screen and(max-width:1367px) {
+	footer {
+		margin-top: 110px;
+	}
+	.footer__layout {
+		max-width: 1260px;
+	}
+	.footer__menu-list__item:first-child {
+		margin-right: 0;
+	}
+}
+
+@media screen and(max-width:1024px) {
+	footer {
+		margin-top: 96px;
+	}
+	.footer__layout {
+		max-width: 905px;
+	}
+	.footer__menu-list__item:first-child {
+		margin-right: 0;
+	}
+}
+@media screen and(min-width:740px) and (max-width: 1023px) {
+	footer {
+		margin-top: 0px;
+	}
+	.footer__layout {
+		max-width: 698px;
+	}
+	.footer__info__about-market-iconSocial {
+		display: none;
+	}
+}
+
+@media screen and(max-width:740px) {
+	footer {
+		margin-top: 28px;
+	}
+	.footer__menu-list__item {
+		&:first-child {
+			margin-right: 0;
+		}
+		&:nth-child(2) {
+			display: none;
+		}
+		&:nth-child(3) {
+			display: none;
+		}
+		&:nth-child(4) {
+			display: none;
+		}
+	}
+	.footer__info__about-market-iconSocial {
+		display: none;
+	}
+	.footer__layout {
+		max-width: 300px;
+	}
+	.footer__info__about-market-text-le {
+		margin-bottom: 16px;
+	}
+}
